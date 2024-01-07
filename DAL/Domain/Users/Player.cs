@@ -2,7 +2,7 @@
 
 namespace DAL.Domain.Users
 {
-    public class Player : DbEntity
+    public class Player
     {
         public Player(Guid userId, int money)
         {
