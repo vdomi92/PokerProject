@@ -1,6 +1,5 @@
 ﻿namespace DAL.Domain.Cards
 {
-
     public enum Suit
     {
         Clubs = 0,

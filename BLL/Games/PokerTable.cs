@@ -1,7 +1,6 @@
-﻿using DAL.Domain.Rules;
-using DAL.Domain.Users;
+﻿using BLL.Rules;
 
-namespace DAL.Domain.Games
+namespace BLL.Games
 {
     public class PokerTable
     {

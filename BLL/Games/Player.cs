@@ -1,6 +1,6 @@
 ﻿using DAL.Domain.Cards;
 
-namespace DAL.Domain.Users
+namespace BLL.Games
 {
     public class Player
     {

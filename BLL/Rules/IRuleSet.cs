@@ -1,4 +1,4 @@
-﻿namespace DAL.Domain.Rules
+﻿namespace BLL.Rules
 {
     public interface IRuleSet
     {
