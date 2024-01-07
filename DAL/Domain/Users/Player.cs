@@ -1,0 +1,21 @@
+﻿using DAL.Domain.Cards;
+
+namespace DAL.Domain.Users
+{
+    public class Player : DbEntity
+    {
+        public Player(Guid userId, int money)
+        {
+            UserId = userId;
+            Money = money;
+        }
+
+        public Guid UserId { get; set; }
+
+        public List<Card> Hand { get; set; } = new List<Card>();
+
+        public List<Card> Table { get; set; } = new List<Card>();
+
+        public int Money { get; set; }
+    }
+}
